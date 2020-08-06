@@ -15,6 +15,7 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="/css/style.css" rel="stylesheet" />
+        <link href="css/stylish-portfolio.min.css" rel="stylesheet">
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -28,7 +29,7 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ml-auto">
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Services</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolios">Portfolio</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="https://github.com/JohnBrix">Github</a></li>
@@ -79,101 +80,65 @@
                 </div>
             </div>
         </section>
-        <!-- Portfolio Grid-->
-        <section class="page-section bg-light" id="portfolio">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Portfolio</h2>
-                    <h3 class="section-subheading text-muted">Java Development</h3>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-                                <!-- <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div> -->
-                                <img class="img-fluid" src="assets/img/portfolio/PosLogo.png" alt="" />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Point of Sale</div>
-                                <div class="portfolio-caption-subheading text-muted">Java Base</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
-                                <!-- <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div> -->
-                                <img class="img-fluid" src="assets/img/portfolio/LibraryManagementSystemLogo.png" alt="" />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Library Management System</div>
-                                <div class="portfolio-caption-subheading text-muted">Java Base</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
-                                <!-- <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div> -->
-                                <img class="img-fluid" src="assets/img/portfolio/IncomingProject.png" alt="" />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Incoming Project</div>
-                                <div class="portfolio-caption-subheading text-muted">Java base</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
-                                <!-- <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div> -->
-                                <img class="img-fluid" src="assets/img/portfolio/IncomingProject.png" alt="" />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Incoming Project</div>
-                                <div class="portfolio-caption-subheading text-muted">Java base</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
-                                <!-- <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div> -->
-                                <img class="img-fluid" src="assets/img/portfolio/IncomingProject.png" alt="" />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Incoming Project</div>
-                                <div class="portfolio-caption-subheading text-muted">Java base</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
-                                <!-- <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div> -->
-                                <img class="img-fluid" src="assets/img/portfolio/IncomingProject.png" alt="" />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Incoming Project</div>
-                                <div class="portfolio-caption-subheading text-muted">Java base</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+       
+            <!-- -PortFolio Grid -->
+  <section class="content-section" id="portfolios">
+    <div class="container">
+      <div class="content-section-heading text-center">
+        <h2 class="section-heading text-uppercase">Portfolio</h2>
+        <h3 class="section-subheading text-muted">Java Development</h3>
+      </div>
+      <div class="row no-gutters">
+        <div class="col-lg-6">
+           
+          <a class="portfolio-item"  data-toggle="modal" href="#portfolioModal1">
+            <div class="caption">
+              <div class="caption-content">
+                <div class="h2">POS</div>
+                <p class="mb-0">POS for fast food, base in Java Swing!</p>
+              </div>
             </div>
-        </section>
+            <img class="img-fluid" src="assets/img/portfolio/PosLogoEdited.png" alt="">
+          </a>
+        </div>
+        <div class="col-lg-6">
+          <a class="portfolio-item" href="#!">
+            <div class="caption">
+              <div class="caption-content">
+                <div class="h2">LMS</div>
+                <p class="mb-0">Library Management System, base in Java Swing!</p>
+              </div>
+            </div>
+            <img class="img-fluid" src="assets/img/portfolio/lmsEdited.png" alt="">
+          </a>
+        </div>
+        <div class="col-lg-6">
+          <a class="portfolio-item" href="#!">
+            <div class="caption">
+              <div class="caption-content">
+                <div class="h2">Coming soon!</div>
+                <p class="mb-0">Incoming project</p>
+              </div>
+            </div>
+            <img class="img-fluid" src="assets/img/portfolio/comingSoon1.png" alt="">
+          </a>
+        </div>
+        <div class="col-lg-6">
+          <a class="portfolio-item" href="#!">
+            <div class="caption">
+              <div class="caption-content">
+                <div class="h2">Coming soon!</div>
+                <p class="mb-0">Incoming project</p>
+              </div>
+            </div>
+            <img class="img-fluid" src="assets/img/portfolio/comingSoon2.png" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+             
+
         <!-- About-->
         <section class="page-section" id="about">
             <div class="container">
