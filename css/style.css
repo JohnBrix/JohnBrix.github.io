@@ -17,7 +17,7 @@
   --pink: #e83e8c;
   --red: #dc3545;
   --orange: #fd7e14;
-  --yellow: #fed136;
+  --yellow: #000000;
   --green: #28a745;
   --teal: #20c997;
   --cyan: #17a2b8;
@@ -2456,7 +2456,7 @@ textarea.form-control {
 }
 .btn:focus, .btn.focus {
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(254, 209, 54, 0.25);
+  box-shadow: #91bacc;
 }
 .btn.disabled, .btn:disabled {
   opacity: 0.65;
@@ -2471,19 +2471,19 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #027894;
+  border-color: #027894;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #fec810;
-  border-color: #fec503;
+  background-color: #027894;
+  border-color: #91bacc;
 }
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
-  background-color: #fec810;
-  border-color: #fec503;
-  box-shadow: 0 0 0 0.2rem rgba(254, 216, 84, 0.5);
+  background-color: #027894;
+  border-color: #91bacc;
+  box-shadow: #91bacc;
 }
 .btn-primary.disabled, .btn-primary:disabled {
   color: #fff;
@@ -2492,11 +2492,11 @@ fieldset:disabled a.btn {
 }
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #fec503;
-  border-color: #f3bd01;
+  background-color: #027894;
+  border-color: #91bacc;
 }
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(254, 216, 84, 0.5);
+  box-shadow: #91bacc;
 }
 
 .btn-secondary {
@@ -10033,7 +10033,7 @@ p {
 }
 
 ::selection {
-  background: #fed136;
+  background: #91bacc;
   text-shadow: none;
 }
 
@@ -10077,7 +10077,7 @@ img::-moz-selection {
   font-size: 0.75rem;
   color: #fff;
   text-transform: uppercase;
-  background-color: #fed136;
+  background-color: #027894;
   border: 0;
 }
 #mainNav .navbar-brand {
@@ -10093,11 +10093,11 @@ img::-moz-selection {
 #mainNav .navbar-nav .nav-item .nav-link {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 0.95rem;
-  color: #fff;
+  color: #ffffff;
   letter-spacing: 0.0625em;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #fed136;
+  color: #027894;
 }
 
 @media (min-width: 992px) {
@@ -10140,7 +10140,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/highwayBG.jpg");
+  background-image: url("../assets/img/river.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
